@@ -1,5 +1,7 @@
 runner\Runner.class
-utilities\Driver.class
+stepDefinitions\tutorialStepDefinition.class
+pages\TutorialPage.class
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
 utilities\ConfigReader.class
+utilities\Driver.class

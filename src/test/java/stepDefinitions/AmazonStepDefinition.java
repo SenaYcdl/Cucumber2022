@@ -9,7 +9,8 @@ import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 public class AmazonStepDefinition {
-    AmazonPage amazonPage=new AmazonPage();
+    AmazonPage amazonPage = new AmazonPage();
+
     @Given("kullanici amazon anasayfasinda")
     public void kullaniciAmazonSayfasinaGider() {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
@@ -22,8 +23,8 @@ public class AmazonStepDefinition {
 
     @And("sonuclarin Nutella icerdigini test eder")
     public void sonuclarinNutellaIcerdiginiTestEder() {
-        String arananKelime="Nutella";
-        String actualAramaSonucStr= amazonPage.aramaSonucElementi.getText();
+        String arananKelime = "Nutella";
+        String actualAramaSonucStr = amazonPage.aramaSonucElementi.getText();
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
     }
 
@@ -40,8 +41,8 @@ public class AmazonStepDefinition {
 
     @And("sonuclarin Selenium icerdigini test eder")
     public void sonuclarinSeleniumIcerdiginiTestEder() {
-        String arananKelime="Selenium";
-        String actualAramaSonucStr= amazonPage.aramaSonucElementi.getText();
+        String arananKelime = "Selenium";
+        String actualAramaSonucStr = amazonPage.aramaSonucElementi.getText();
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
     }
 
@@ -52,8 +53,9 @@ public class AmazonStepDefinition {
 
     @And("sonuclarin iphone icerdigini test eder")
     public void sonuclarinIphoneIcerdiginiTestEder() {
-        String arananKelime="iphone";
-        String actualAramaSonucStr= amazonPage.aramaSonucElementi.getText();
+        String arananKelime = "iphone";
+        String actualAramaSonucStr = amazonPage.aramaSonucElementi.getText();
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
     }
+
 }
