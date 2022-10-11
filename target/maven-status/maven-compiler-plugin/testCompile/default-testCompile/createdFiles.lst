@@ -3,6 +3,12 @@ stepDefinitions\tutorialStepDefinition.class
 pages\TutorialPage.class
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
+pages\PracticeTC07Page.class
+utilities\ReusableMethods$1.class
 utilities\Driver.class
+stepDefinitions\Practice_TC07steps.class
+pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
+stepDefinitions\BlueRentCar.class
 utilities\ConfigReader.class
+utilities\ReusableMethods.class
