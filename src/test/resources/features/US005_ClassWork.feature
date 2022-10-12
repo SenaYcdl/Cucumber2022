@@ -1,6 +1,7 @@
 Feature: US005 BlueRentaCar Login
+
   Scenario: TC01 kullanici gecerli bilgilerle giris yapar
-    Given kullanici bluerentacar ana sayfasinda
+    Given kullanici "brcUrl" ana sayfasinda
     Then Login yazisina tiklar
     And gecersiz username girer
     And gecersiz password girer

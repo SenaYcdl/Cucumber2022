@@ -96,4 +96,14 @@ public class AmazonStepDefinition {
         }
 
     }
+
+    @When("url'nin {string} icerdigini test edelim")
+    public void urlNinIcerdiginiTestEdelim(String arananKelime) {
+
+
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(arananKelime));
+
+
+    }
 }

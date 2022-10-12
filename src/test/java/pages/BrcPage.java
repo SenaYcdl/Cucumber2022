@@ -14,4 +14,19 @@ public class BrcPage {
 
     @FindBy(xpath= "//a[normalize-space()='Login']")
     public WebElement login;
+
+    @FindBy(xpath = "//input[@id='formBasicEmail']")
+    public WebElement email;
+
+    @FindBy(xpath = "//input[@id='formBasicPassword']")
+    public WebElement password;
+
+    @FindBy(xpath = "(//*[text()=' Login'])[2]")
+    public WebElement ikinciLogin;
+
+
+    @FindBy(xpath = "//*[@id='root']")
+    public WebElement sayfayaGirisYapilamadi;
+
+
 }
