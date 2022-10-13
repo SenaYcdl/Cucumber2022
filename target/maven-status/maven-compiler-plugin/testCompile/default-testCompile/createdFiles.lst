@@ -7,10 +7,16 @@ stepDefinitions\PracticeAmazonStepDefinition.class
 stepDefinitions\Practice_TC07steps.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
+stepDefinitions\BrcStepDefinition.class
+stepDefinitions\DatabaseStepDefinition.class
+pages\DatabasePage.class
 utilities\ReusableMethods.class
 stepDefinitions\tutorialStepDefinition.class
 pages\AmazonPage.class
+pages\BrcHomeworkPage.class
 pages\PracticeTC07Page.class
 utilities\Driver.class
+stepDefinitions\PracticeTestPageStepDef.class
 stepDefinitions\BlueRentCar.class
+pages\PracticeTestPage.class
 utilities\ConfigReader.class
