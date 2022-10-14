@@ -2,6 +2,7 @@ runner\Runner.class
 pages\TutorialPage.class
 stepDefinitions\AmazonStepDefinition.class
 utilities\ReusableMethods$1.class
+pages\GuruPage.class
 pages\PracticeAmazonPage.class
 stepDefinitions\PracticeAmazonStepDefinition.class
 stepDefinitions\Practice_TC07steps.class
@@ -17,6 +18,8 @@ pages\BrcHomeworkPage.class
 pages\PracticeTC07Page.class
 utilities\Driver.class
 stepDefinitions\PracticeTestPageStepDef.class
+stepDefinitions\Hooks.class
 stepDefinitions\BlueRentCar.class
 pages\PracticeTestPage.class
 utilities\ConfigReader.class
+stepDefinitions\GuruStepDefinition.class

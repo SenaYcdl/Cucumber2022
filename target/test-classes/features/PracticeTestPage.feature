@@ -9,3 +9,4 @@ Feature: Cucumber Java Manipulation
     And Down yazisindaki iki basamakli sayilarin hepsini toplayin
     And Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin
     Then sonucun 1100 oldugunu dogrulayin
+    And sayfayi kapatir
