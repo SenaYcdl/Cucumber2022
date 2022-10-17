@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 )
 
-public class TestRunner {
+public class runner {
 
     /*
  Bir framework'de bir tek Runner class'i yeterli olabilir

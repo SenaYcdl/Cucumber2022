@@ -1,4 +1,3 @@
-runner\Runner.class
 pages\TutorialPage.class
 stepDefinitions\AmazonStepDefinition.class
 utilities\ReusableMethods$1.class
@@ -11,8 +10,11 @@ stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\BrcStepDefinition.class
 stepDefinitions\DatabaseStepDefinition.class
 pages\DatabasePage.class
+runner\runner.class
+pages\HerokuappPage.class
 utilities\ReusableMethods.class
 stepDefinitions\tutorialStepDefinition.class
+runner\TestRunner2.class
 pages\AmazonPage.class
 pages\BrcHomeworkPage.class
 pages\PracticeTC07Page.class
@@ -22,4 +24,6 @@ stepDefinitions\Hooks.class
 stepDefinitions\BlueRentCar.class
 pages\PracticeTestPage.class
 utilities\ConfigReader.class
+runner\TestRunner.class
 stepDefinitions\GuruStepDefinition.class
+stepDefinitions\HerokuStepDefinitions.class
