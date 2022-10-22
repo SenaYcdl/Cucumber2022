@@ -1,11 +1,27 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import pages.AutoPage;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 public class AutoStepDefinition {
+
+    AutoPage auto=new AutoPage();
+
+
+    @Given("kullanici {string} anasayfasinda")
+    public void kullanici_anasayfasinda(String url) {
+
+        Driver.getDriver().get(" http://automationpractice.com/index.php");
+    }
+
     @And("kullanici sign in linkine tiklar")
     public void kullaniciSignInLinkineTiklar() {
+
+        auto.login.click();
     }
 
     @And("kullanici Create and account bolumune email adresi girer")
